@@ -22,4 +22,4 @@ and actually, this application will make a bridge between Owner and User.
 * Online Chatting
 
 
-![Screenshot_20201128_200102](https://user-images.githubusercontent.com/54904545/103376617-5ce07400-4b07-11eb-878b-20c221d706b9.jpg | width =100)
+![Screenshot_20201128_200102](https://user-images.githubusercontent.com/54904545/103376617-5ce07400-4b07-11eb-878b-20c221d706b9.jpg "width =100")
