@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+    <include
+        layout="@layout/custom_toolbar"/>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="4dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Select One : "
+            android:padding="@dimen/_5sdp"
+            android:textSize="@dimen/_16ssp"/>
+
+
+    </androidx.cardview.widget.CardView>
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RadioGroup
+            android:id="@+id/SerachRadioGroup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/_5sdp"
+            >
+
+            <RadioButton
+                android:id="@+id/radio_GhonaPara"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="GhonaPara"/>
+
+
+            <RadioButton
+                android:id="@+id/radio_University"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="University"/>
+
+            <RadioButton
+                android:id="@+id/radio_VCResidence"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="VC Residence"/>
+            <RadioButton
+                android:id="@+id/radio_SobhanSorok"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Sobhan Sorok"/>
+
+            <RadioButton
+                android:id="@+id/radio_Sonakor"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Sonakor"/>
+
+            <RadioButton
+                android:id="@+id/radio_CircuitHouse"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Circuit House"/>
+
+            <RadioButton
+                android:id="@+id/radio_LGDMOR"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="LGD MOR"/>
+
+            <RadioButton
+                android:id="@+id/radio_Nobinbag"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Nobinbag"/>
+
+            <RadioButton
+                android:id="@+id/radio_AncharMath"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Anchar Math"/>
+
+            <RadioButton
+                android:id="@+id/radio_Pacuriya"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Pacuriya"/>
+
+            <RadioButton
+                android:id="@+id/radio_GopalganjSohor"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Gopalganj Sohor"/>
+
+            <RadioButton
+                android:id="@+id/radio_Others"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Others"/>
+        </RadioGroup>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnSumitSErach"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:padding="@dimen/_10sdp"
+        android:layout_gravity="center"
+        android:layout_width="@dimen/_200sdp"
+        android:textAllCaps="false"
+        android:layout_height="wrap_content"
+        android:text="Submit"/>
+
+    <TextView
+        android:id="@+id/tv_SearchAnotherWay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Search Another Way"
+        android:textSize="@dimen/_16ssp"
+        android:gravity="center"
+        android:layout_marginTop="@dimen/_7sdp"/>
+
+
+</LinearLayout>

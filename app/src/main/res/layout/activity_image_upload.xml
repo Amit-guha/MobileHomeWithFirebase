@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".multifileupload.ImageUpload">
+
+    <EditText
+        android:id="@+id/tvtext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Your data"
+        android:gravity="center"
+        android:layout_margin="@dimen/_10sdp"
+        android:textSize="@dimen/_15ssp"/>
+
+   <Button
+       android:id="@+id/btnshow"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:text="showdata"
+       android:layout_margin="@dimen/_10sdp"/>
+    <Button
+        android:id="@+id/btnselectmultiplefile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Select Multiple File"
+        android:layout_margin="@dimen/_10sdp"
+        />
+
+    <Button
+        android:id="@+id/btnImageanddata"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Submit"
+        android:layout_margin="@dimen/_10sdp"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/RecyUpload"
+        android:layout_marginTop="@dimen/_14sdp"
+        tools:listitem="@layout/singlefile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+
+</LinearLayout>

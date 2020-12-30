@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="@dimen/_5sdp">
+
+    <ImageView
+        android:id="@+id/nImgview"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:src="@drawable/datanotfound"/>
+
+    <TextView
+        android:id="@+id/ntvview"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sorry we couldn't find any matches"
+        android:gravity="center_horizontal"
+        android:textColor="#1C1A1A"
+        android:textSize="@dimen/_14ssp"
+        android:fontFamily="serif"/>
+
+</LinearLayout>

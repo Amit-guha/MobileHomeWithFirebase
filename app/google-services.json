@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "48831775942",
+    "firebase_url": "https://mobilehome-b59c0.firebaseio.com",
+    "project_id": "mobilehome-b59c0",
+    "storage_bucket": "mobilehome-b59c0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:48831775942:android:c1cd36a7fd823eb8e043c7",
+        "android_client_info": {
+          "package_name": "com.example.mobilehome"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "48831775942-9cghpd5hfjvsngmnbjjle7niu3fdursj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBASL44NU-Sw9gszIZFaYf4OGdLPiVKaAE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "48831775942-9cghpd5hfjvsngmnbjjle7niu3fdursj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

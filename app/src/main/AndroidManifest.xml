@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.mobilehome">
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+
+    <application
+        android:name=".netWordkInfo.MyApp"
+        android:allowBackup="true"
+        android:icon="@drawable/smartphonee"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/smartphonee"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".multifileupload.Fileshow"></activity>
+        <activity android:name=".multifileupload.ImageUpload" />
+        <activity android:name=".netWordkInfo.OfflineActivity" />
+        <activity android:name=".netWordkInfo.Nonet" />
+        <activity android:name=".actualstudent.StudentChatActivity" />
+        <activity android:name=".studentverifyphonelogin.PhoneVerify" />
+        <activity android:name=".studentverifyphonelogin.PhoneRegister" />
+        <activity android:name=".studentverifyphonelogin.PhoneLogin" />
+        <activity android:name=".phoneverification.VerifyPhone" />
+        <activity android:name=".phoneverification.RegestrationPhone" />
+        <activity android:name=".phoneverification.LoginPhone" />
+        <activity android:name=".actualstudent.ChatRegestration" />
+        <activity android:name=".actualstudent.ChatLogin" />
+        <activity android:name=".actualstudent.StudentCenterPage" />
+        <activity android:name=".studentfragment.ChatActivity" />
+        <activity android:name=".owner.ProfileActivity" />
+        <activity android:name=".studentfragment.CenterPage" />
+        <activity android:name=".owner.ReceivedRequest" />
+        <activity android:name=".messaging.SendRequestProfile" />
+        <activity android:name=".messaging.StudentRegister" />
+        <activity android:name=".messaging.StudentLogIn" />
+        <activity android:name=".student.ContactDetails" />
+        <activity android:name=".student.ItemSerach" />
+        <activity android:name=".student.SearchAnotherWay" />
+        <activity android:name=".student.LocationSearch" />
+        <activity android:name=".student.StudentUpdateCheck" />
+        <activity android:name=".owner.CheckActivity" />
+        <activity android:name=".EmailPassword" />
+        <activity android:name=".owner.UploadStatus" />
+        <activity android:name=".owner.UpDelCheck" />
+        <activity android:name=".student.SelectPlaceDetails" />
+        <activity android:name=".student.SelectPlace" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

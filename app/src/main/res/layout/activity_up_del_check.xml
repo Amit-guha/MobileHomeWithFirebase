@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".owner.UpDelCheck">
+
+
+    <!--Add Toolbar-->
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/tv_toolbar_updel"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/white"
+        android:elevation="4dp"
+        android:orientation="vertical">
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/toolbarTextview"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="serif"
+                    android:text="Owner Status"
+                    android:textColor="#000"
+                    android:textSize="@dimen/_15ssp"
+                    android:textStyle="bold" />
+
+
+            </LinearLayout>
+        </RelativeLayout>
+
+    </androidx.appcompat.widget.Toolbar>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="@dimen/_15sdp"
+            android:layout_marginTop="@dimen/_12sdp"
+            android:layout_marginRight="@dimen/_15sdp"
+            android:background="#E9EBEE">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:weightSum="4">
+
+                <!--First Upload your status-->
+
+
+                <LinearLayout
+                    android:id="@+id/LinUpload"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_40sdp"
+                    android:layout_marginTop="@dimen/_15sdp"
+                    android:layout_weight="2">
+
+                    <ImageView
+                        android:layout_width="0dp"
+                        android:layout_height="@dimen/_36sdp"
+                        android:layout_weight="0.2"
+                        android:src="@drawable/upload" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="@dimen/_40sdp"
+                        android:layout_weight="0.8"
+                        android:fontFamily="serif"
+                        android:gravity="left|center"
+                        android:text="Uplaod Your Status"
+                        android:textColor="#000"
+                        android:textSize="@dimen/_14ssp" />
+
+                </LinearLayout>
+
+                <!--Second Check your status-->
+
+                <LinearLayout
+                    android:id="@+id/LinStatus"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_40sdp"
+                    android:layout_marginTop="@dimen/_20sdp"
+                    android:layout_weight="2">
+
+                    <ImageView
+                        android:layout_width="0dp"
+                        android:layout_height="@dimen/_36sdp"
+                        android:layout_weight="0.2"
+                        android:src="@drawable/check" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="@dimen/_40sdp"
+                        android:layout_weight="0.8"
+                        android:fontFamily="serif"
+                        android:gravity="left|center"
+                        android:text="Check Your Status"
+                        android:textColor="#000"
+                        android:textSize="@dimen/_14ssp" />
+
+                </LinearLayout>
+
+                <!--Third Messaging Activity-->
+
+                <LinearLayout
+                    android:id="@+id/LinMsg"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_40sdp"
+                    android:layout_marginTop="@dimen/_20sdp"
+                    android:layout_weight="2">
+
+                    <ImageView
+                        android:layout_width="0dp"
+                        android:layout_height="@dimen/_36sdp"
+                        android:layout_weight="0.2"
+                        android:src="@drawable/chat" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="@dimen/_40sdp"
+                        android:layout_weight="0.8"
+                        android:fontFamily="serif"
+                        android:gravity="left|center"
+                        android:text="Check Message"
+                        android:textColor="#000"
+                        android:textSize="@dimen/_14ssp" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+    </LinearLayout>
+
+</LinearLayout>

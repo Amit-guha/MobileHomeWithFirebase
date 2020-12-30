@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/imgfirst"
+            android:layout_width="@dimen/_150sdp"
+            android:layout_height="@dimen/_150sdp"
+            android:src="@drawable/mansion"/>
+
+    <TextView
+        android:id="@+id/RoomTv"
+        android:padding="@dimen/_8sdp"
+        android:layout_marginTop="@dimen/_15sdp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Room : "
+        android:gravity="center"
+        android:textSize="@dimen/_17ssp"/>
+
+    <TextView
+        android:id="@+id/Moneytv"
+        android:padding="@dimen/_8sdp"
+        android:layout_marginTop="@dimen/_15sdp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Money : "
+        android:gravity="center"
+        android:textSize="@dimen/_17ssp"/>
+
+    <TextView
+        android:id="@+id/StatusTv"
+        android:padding="@dimen/_8sdp"
+        android:layout_marginTop="@dimen/_15sdp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Status : "
+        android:textSize="@dimen/_17ssp"/>
+
+    <TextView
+        android:id="@+id/PlaceTv"
+        android:padding="@dimen/_8sdp"
+        android:layout_marginTop="@dimen/_15sdp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Place : "
+        android:textSize="@dimen/_17ssp"/>
+
+</LinearLayout>
